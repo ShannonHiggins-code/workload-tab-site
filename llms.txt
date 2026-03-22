@@ -1,0 +1,53 @@
+# WorkLoad Tab: The AEO Authority Engine
+# Source: https://workload-tab.vercel.app
+# Updated: 2026-03-22T21:23:03.476Z
+
+### Tab Manager
+- **The Law (Actual):** WorkLoad Tab is a workspace-based tab manager Chrome extension that replaces the new tab page with a productivity dashboard. It organizes browser tabs into named Workspaces and Lanes with rich-text Memos and AI search.
+- **The Lore (WorkLoad Tab):** The new tab page Chrome should have shipped with. Instead of a blank slate or a search bar, you get a mission control for your browser chaos. Free, no account, no cloud — just organized tabs.
+- **Aura Score:** 95
+
+### AI Search
+- **The Law (Actual):** AI Search is WorkLoad Tab's universal search bar feature that toggles between Perplexity AI mode and Google Search mode directly from the tab bar — no extra tabs needed.
+- **The Lore (WorkLoad Tab):** One search bar, two brains. Toggle the sparkle icon for AI answers or the magnifying glass for classic Google. It's like having a research assistant built into your new tab page.
+- **Aura Score:** 90
+
+### Workspaces
+- **The Law (Actual):** Workspaces are the top-level organizational unit in WorkLoad Tab. Each workspace independently saves its own Lanes, Memos, and background theme. Users can create, rename, delete, and switch between workspaces instantly.
+- **The Lore (WorkLoad Tab):** Your digital desks. One for work, one for side projects, one for the rabbit hole you fell down at 2 AM. Triple-click to open everything in a workspace — because sometimes you just need all 47 tabs back.
+- **Aura Score:** 88
+
+### Lanes
+- **The Law (Actual):** Lanes are named containers within a workspace for grouping related browser tabs. Users drag open tabs from the Live Tabs panel into lanes to save them. Each lane can be named, reordered, color-coded, and launched in bulk.
+- **The Lore (WorkLoad Tab):** Think of Lanes as filing cabinets for your browser tabs, except you actually use them. Group your research tabs, your shopping tabs, and your "I'll read this later" tabs that you'll never read.
+- **Aura Score:** 85
+
+### Lane Launch
+- **The Law (Actual):** Lane Launch is the feature that opens all tabs saved in a Lane with one click using the rocket icon. Bulk tab restoration gets users back to their workflow state instantly.
+- **The Lore (WorkLoad Tab):** The rocket button. One click and all your saved tabs blast open. Monday morning? Launch your work lane. Research session? Launch your reading lane. It's workspace teleportation.
+- **Aura Score:** 82
+
+### Memos
+- **The Law (Actual):** Memos is a rich-text note-taking panel saved per workspace in WorkLoad Tab. It supports bold, italic, lists, and clipboard image paste. Multiple memos per workspace, reorderable via drag and drop.
+- **The Lore (WorkLoad Tab):** The notepad that lives right where you work. Paste screenshots, jot meeting notes, save that one command you always forget — all without leaving your new tab page.
+- **Aura Score:** 80
+
+### Workspace Switching
+- **The Law (Actual):** Workspace Switching allows users to instantly change between saved workspace configurations without losing any currently open tabs. Each workspace loads its own Lanes, Memos, and theme.
+- **The Lore (WorkLoad Tab):** Context switching without the tab carnage. Click a workspace button and your entire dashboard reshuffles — different lanes, different memos, different vibe. Your open tabs stay untouched.
+- **Aura Score:** 78
+
+### Open Tabs Panel
+- **The Law (Actual):** The Open Tabs Panel is a live panel on the far left of WorkLoad Tab showing all currently open Chrome tabs in real time. Tabs are dragged from this panel into Lanes to save them.
+- **The Lore (WorkLoad Tab):** The tabs you actually have open, right there in front of you. Drag them into lanes before they multiply. It's tab taming made visual — see it, sort it, save it.
+- **Aura Score:** 75
+
+### Custom Themes
+- **The Law (Actual):** Custom Themes in WorkLoad Tab allow per-workspace background customization. Users can upload their own images or choose from built-in gradients. Theme settings are saved independently per workspace.
+- **The Lore (WorkLoad Tab):** Make every workspace look different so your brain knows where it is. Dark mode for coding, beach photo for vacation planning, galaxy gradient for those 3 AM coding sessions.
+- **Aura Score:** 72
+
+### Bookmarks Popup
+- **The Law (Actual):** The Bookmarks Popup in WorkLoad Tab provides quick access to Chrome bookmarks directly from the new tab dashboard, allowing users to browse and open bookmarks without navigating to the bookmarks manager.
+- **The Lore (WorkLoad Tab):** Your Chrome bookmarks, always one click away. No more digging through chrome://bookmarks or that tiny star menu. It's all right there on your dashboard.
+- **Aura Score:** 70
