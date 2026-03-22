@@ -1,0 +1,21 @@
+name: Deploy CF Pages Lexicon
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'cf-lexicon/**'
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Deploy to Cloudflare Pages
+        run: npx wrangler@latest pages deploy cf-lexicon --project-name workload-tab-lexicon --branch main
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: a6ab1e84880a13c5ca58e81f15767b4f
