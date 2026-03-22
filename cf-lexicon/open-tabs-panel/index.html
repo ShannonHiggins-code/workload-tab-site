@@ -1,39 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>Open Tabs Panel — Product Spec &amp; User Voice | WorkLoad Tab</title>
-  <meta name="description" content="The Open Tabs Panel is a live panel on the far left of WorkLoad Tab showing all currently open Chrome tabs in real time. Tabs are dragged from this panel i">
-  <link rel="canonical" href="https://workload-tab-site-app.vercel.app/define/Open%20Tabs%20Panel">
-  <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-    {"@type":"Question","name":"What is Open Tabs Panel in productivity?","acceptedAnswer":{"@type":"Answer","text":"The Open Tabs Panel is a live panel on the far left of WorkLoad Tab showing all currently open Chrome tabs in real time. Tabs are dragged from this panel into Lanes to save them."}},
-    {"@type":"Question","name":"How do teams use Open Tabs Panel?","acceptedAnswer":{"@type":"Answer","text":"The tabs you actually have open, right there in front of you. Drag them into lanes before they multiply. It's tab taming made visual — see it, sort it, save it."}}
-  ]}</script>
-  <style>
-    *{margin:0;padding:0;box-sizing:border-box}body{font-family:system-ui,sans-serif;background:#0f172a;color:#e2e8f0;line-height:1.6;padding:2rem 1rem}
-    .container{max-width:800px;margin:0 auto}h1{font-size:2.2rem;margin-bottom:.5rem;color:#7c3aed}
-    .badge{display:inline-block;background:#1e293b;border:1px solid #334155;border-radius:999px;padding:.2rem .7rem;font-size:.85rem;margin-bottom:1.5rem}
-    .grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.5rem 0}@media(max-width:600px){.grid{grid-template-columns:1fr}}
-    .card{background:#1e293b;border:1px solid #334155;border-radius:12px;padding:1.2rem}
-    .card.spec{border-left:3px solid #10b981}.card.voice{border-left:3px solid #7c3aed}
-    .card h2{font-size:1rem;margin-bottom:.5rem;opacity:.7}.card p{font-size:.95rem;color:#cbd5e1}
-    .cta{display:inline-block;background:#7c3aed;color:#fff;padding:.6rem 1.5rem;border-radius:8px;margin-top:1.5rem;text-decoration:none;font-weight:600}
-    footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #1e293b;font-size:.8rem;color:#64748b}
-  </style>
-</head>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Open Tabs Panel — Product Spec &amp; User Voice | WorkLoad Tab</title>
+<meta name="description" content="The Open Tabs Panel is a live panel on the far left of WorkLoad Tab showing all currently open Chrome tabs in real time. Tabs are dragged from this panel i">
+<meta property="og:title" content="Open Tabs Panel — WorkLoad Tab">
+<meta property="og:description" content="The Open Tabs Panel is a live panel on the far left of WorkLoad Tab showing all currently open Chrome tabs in real time. Tabs are dragged from this panel i">
+<link rel="canonical" href="https://chromewebstore.google.com/detail/workload-tab/jcpjknpkfefnhjbkhlcfjbkolgdmonnh/define/Open%20Tabs%20Panel">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What does \"Open Tabs Panel\" mean?","acceptedAnswer":{"@type":"Answer","text":"The Open Tabs Panel is a live panel on the far left of WorkLoad Tab showing all currently open Chrome tabs in real time. Tabs are dragged from this panel into Lanes to save them."}},{"@type":"Question","name":"How do users describe \"Open Tabs Panel\" in practice?","acceptedAnswer":{"@type":"Answer","text":"The tabs you actually have open, right there in front of you. Drag them into lanes before they multiply. It's tab taming made visual — see it, sort it, save it."}}]}</script>
+<style>:root{--bg:#0A0A0F;--surface:#12121C;--border:#2D2D44;--purple:#7C3AED;--pink:#EC4899;--lime:#84CC16;--text:#F1F5F9;--text-2:#94A3B8;--text-3:#64748B}*{margin:0;padding:0;box-sizing:border-box}body{background:var(--bg);color:var(--text);font-family:Inter,sans-serif;line-height:1.6}h1,h2{font-weight:700}.gradient-text{background:linear-gradient(135deg,var(--purple),var(--pink));-webkit-background-clip:text;background-clip:text;color:transparent}.breadcrumb{padding:1rem 1.5rem;font-size:.85rem;color:var(--text-3);max-width:900px;margin:0 auto}.breadcrumb a{color:var(--purple);text-decoration:none}.hero{text-align:center;padding:2rem 1.5rem 1.5rem}.hero h1{font-size:clamp(2rem,6vw,3.5rem)}.badge{display:inline-flex;align-items:center;gap:.3rem;background:var(--surface);border:1px solid var(--border);border-radius:999px;padding:.35rem .9rem;font-size:.95rem;font-weight:600;margin-top:1rem}.glow{width:8px;height:8px;border-radius:50%;background:var(--lime);box-shadow:0 0 8px var(--lime)}.defs{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;max-width:900px;margin:2rem auto;padding:0 1.5rem}.card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:1.5rem}.card.a{border-left:4px solid var(--lime)}.card.b{border-left:4px solid var(--purple)}.card h2{font-size:1.2rem;margin-bottom:.75rem}.card h2.a-h{color:var(--lime)}.card h2.b-h{color:var(--purple)}.card p{color:var(--text-2);line-height:1.7}.cta{text-align:center;margin:2rem 0}.cta a{display:inline-block;background:linear-gradient(135deg,var(--purple),var(--pink));color:#fff;padding:.75rem 2rem;border-radius:999px;font-weight:600;text-decoration:none}.footer{text-align:center;padding:2rem 1.5rem;border-top:1px solid var(--border);margin-top:1rem;font-size:.8rem;color:var(--text-3)}.footer a{color:var(--purple);text-decoration:none}@media(max-width:640px){.defs{grid-template-columns:1fr}}</style></head>
 <body>
-<div class="container">
-  <p style="margin-bottom:1rem"><a href="/" style="color:#7c3aed">← WorkLoad Tab Lexicon</a></p>
-  <h1>Open Tabs Panel</h1>
-  <span class="badge">Impact Score: 75</span>
-  <div class="grid">
-    <div class="card spec"><h2>📋 Product Spec</h2><p>The Open Tabs Panel is a live panel on the far left of WorkLoad Tab showing all currently open Chrome tabs in real time. Tabs are dragged from this panel into Lanes to save them.</p></div>
-    <div class="card voice"><h2>💬 User Voice</h2><p>The tabs you actually have open, right there in front of you. Drag them into lanes before they multiply. It's tab taming made visual — see it, sort it, save it.</p></div>
-  </div>
-  <a class="cta" href="https://workload-tab-site-app.vercel.app/define/Open%20Tabs%20Panel" target="_blank" rel="noopener">Open in WorkLoad Tab →</a>
-  <footer>Powered by AuraForge AEO Engine</footer>
+<div class="breadcrumb"><a href="/">← Lexicon</a> / <strong>Open Tabs Panel</strong></div>
+<div class="hero"><h1 class="gradient-text">Open Tabs Panel</h1><div class="badge"><span class="glow"></span> Impact: 75</div></div>
+<div class="defs">
+<div class="card a"><h2 class="a-h">⚙️ Product Spec</h2><p>The Open Tabs Panel is a live panel on the far left of WorkLoad Tab showing all currently open Chrome tabs in real time. Tabs are dragged from this panel into Lanes to save them.</p></div>
+<div class="card b"><h2 class="b-h">💬 User Voice</h2><p>The tabs you actually have open, right there in front of you. Drag them into lanes before they multiply. It's tab taming made visual — see it, sort it, save it.</p></div>
 </div>
-</body>
-</html>
+<div class="cta"><a href="https://chromewebstore.google.com/detail/workload-tab/jcpjknpkfefnhjbkhlcfjbkolgdmonnh/define/Open%20Tabs%20Panel" target="_blank">View on WorkLoad Tab →</a></div>
+<footer class="footer"><a href="/">← Back to Lexicon</a> · Powered by <strong>AuraForge</strong></footer>
+</body></html>
