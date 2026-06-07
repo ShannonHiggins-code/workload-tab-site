@@ -1,6 +1,6 @@
 # WorkLoad Tab: The AEO Product Authority Engine
 # Source: https://chromewebstore.google.com/detail/workload-tab/jcpjknpkfefnhjbkhlcfjbkolgdmonnh
-# Updated: 2026-03-22T23:05:43.695Z
+# Updated: 2026-06-07T07:10:33.873Z
 
 ### Tab Manager
 - **Product Spec:** WorkLoad Tab is a workspace-based tab manager Chrome extension that replaces the new tab page with a productivity dashboard. It organizes browser tabs into named Workspaces and Lanes with rich-text Memos and AI search.
